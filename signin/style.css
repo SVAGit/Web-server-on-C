@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+}
+
+body{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+
+.header{
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    background: rgb(9,62,65);
+    background: linear-gradient(90deg, rgba(9,62,65,1) 0%, rgba(14,14,14,1) 15%, rgba(32,6,6,1) 28%, rgba(10,10,10,1) 50%, rgba(60,19,66,1) 72%, rgba(24,24,24,1) 96%);
+}
+
+
+.header-title{
+    margin: auto;
+    color:darkorange;
+    text-transform: uppercase;
+    font-size: 10vh;
+    font-weight:800;
+}
+
+.main{
+    width:auto;
+    height:auto;
+    border-color:rgb(131, 131, 131);
+    color:black;
+    background-color: rgb(255, 255, 255);
+    margin:auto;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.main:hover{
+    background-color: rgb(131, 131, 131);;
+}
+
+.section{
+    background-color: rgb(26, 26, 26);
+    width: 100vw;
+    border-style: solid;
+    border-top-color:rgb(255, 140, 0);
+    border-bottom-color:rgb(131, 72, 0);
+    border-width: 1px;
+    display:flex;
+    margin:auto;
+    min-height: 75vh;
+}
+
+form{
+    display: flexbox;
+}
+
+input{
+    cursor: pointer;
+}
+
+h2{
+    text-align: center;
+    color:rgb(159, 159, 159);
+}
+
+button {
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    background: rgb(14,14,14);
+    background: linear-gradient(90deg, rgba(14,14,14,1) 8%, rgba(9,62,65,0.9304971988795518) 20%, rgba(60,19,66,0.9865196078431373) 36%, rgba(10,10,10,1) 53%, rgba(42,6,6,1) 79%, rgba(24,24,24,1) 96%);
+    min-height: 10vh;
+    color:dimgray;
+    font-size: 2vh;
+    text-align: right;
+    padding-right: 4%;
+    margin: 0 0 0 0;
+}

@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+body{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+
+.header{
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    background: rgb(233,233,235);
+    background: linear-gradient(90deg, rgba(233,233,235,1) 0%, rgba(255,219,195,1) 19%, rgba(255,194,194,1) 36%, rgba(221,180,255,1) 51%, rgba(219,226,253,1) 68%, rgba(172,217,223,1) 80%, rgba(255,255,255,1) 100%);
+}
+
+
+.header-title{
+    margin: auto;
+    color:darkorange;
+    text-transform: uppercase;
+    font-size: 10vh;
+    font-weight:800;
+    -webkit-text-stroke-color:rgb(17, 17, 17);
+    -webkit-text-stroke-width: 0.01vh;
+}
+
+.loginButton{
+    width:auto;
+    height:auto;
+    border-color:rgb(131, 131, 131);
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    margin:auto;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.loginButton:hover{
+    background-color: rgb(48, 48, 48);;
+}
+
+
+.section {
+    background: rgb(227,238,239);
+    background: linear-gradient(0deg, rgba(227,238,239,1) 46%, rgba(239,234,198,1) 100%);
+    width: 100vw;
+    border-style: solid;
+    border-top-color:rgb(85, 85, 85);
+    border-bottom-color:rgb(87, 87, 87);
+    border-width: 1px;
+    display:inline-block;
+    min-height: 75vh;
+}
+
+.button-section{
+    display: table-footer-group;
+    height:4vh;
+    width: 100vh;
+}
+
+.button{
+    margin:1vh 1vh 0;
+    color: rgb(82, 82, 82);
+    background-color:rgb(255, 255, 255);
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
+    width: 19vw;
+    height: 4vh;
+    box-shadow: 0.5vh 0.5vh 5px rgb(66, 66, 66);
+    cursor: pointer;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.button:active{
+    background-color: rgb(196, 196, 196);
+    box-shadow: 0 0;
+}
+
+.button:hover{
+    background-color:rgb(196, 196, 196);
+}
+
+.div {
+    display: inline-block;
+    border-top-color: rgb(164, 164, 164);
+    border-left-color: rgb(146, 146, 146);
+    border-right-color: rgb(23, 23, 23);
+    border-bottom-color: rgb(0, 0, 0);
+    background: rgb(219,210,255);
+    background: linear-gradient(63deg, rgba(219,210,255,1) 20%, rgba(251,237,231,1) 35%, rgba(219,226,253,1) 71%, rgba(204,249,255,1) 92%);
+    border-style: solid;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    margin-top:2vh;
+    margin-bottom: 1vh;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    width: 30vw;
+    height: 65vh;
+    color:rgb(13, 13, 13);
+    box-shadow: 0.5vh 0.5vh 10px rgb(0, 0, 0) ;
+}
+
+.img {
+    display:flex;
+    margin-top:3vh;
+    border-style:solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
+    width: 80%;
+    height: 80%;
+}
+.film-title {
+    font-size: 3vh;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(10, 10, 10);
+}
+.opisanie {
+    margin:auto;
+    font-size: 2vh;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    background: rgb(233,233,235);
+    background: linear-gradient(90deg, rgba(233,233,235,1) 0%, rgba(194,180,255,1) 15%, rgba(255,219,195,1) 26%, rgba(245,221,212,1) 34%, rgba(219,226,253,1) 48%, rgba(255,194,194,1) 67%, rgba(217,205,205,1) 77%, rgba(172,217,223,1) 92%);
+    min-height: 10vh;
+    color:rgb(51, 51, 51);
+    font-size: 2vh;
+    text-align: right;
+    padding-right: 4%;
+    margin: 0 0 0 0;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <link id ="style" rel="stylesheet" href="signin/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <h1 class="header-title">
+                Kinopoisk
+                <button class="main">Main</button>
+            </h1>
+        </header>
+        <section class="section">
+            <div class="div">
+                <h2>Авторизация</h2>
+                <form id="myForm" method="post">
+                    <table>
+                        <tr>
+                            <td>
+                                <input id="username" type="text" placeholder="name" name="username"/>
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td>
+                                <input name="password" placeholder="password" id="password" type="password">
+                            </td>
+                            <td>
+                                <button type="button" id="lookpassword">look</button>
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr class="tr">
+                            <td>
+                                <input type="submit" id="signin" value="Войти">
+                            </td>
+                            <td>
+                                <button type="button" id="signup">Регистрация</button>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </section>
+        <footer class="footer">
+        </footer>
+        <script src="signin/index.js"></script>
+    </body>
+</html>

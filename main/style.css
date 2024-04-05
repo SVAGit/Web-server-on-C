@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+body{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+
+.header{
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    background: rgb(9,62,65);
+    background: linear-gradient(90deg, rgba(9,62,65,1) 0%, rgba(14,14,14,1) 15%, rgba(32,6,6,1) 28%, rgba(10,10,10,1) 50%, rgba(60,19,66,1) 72%, rgba(24,24,24,1) 96%);
+}
+
+
+.header-title{
+    margin: auto;
+    color:darkorange;
+    text-transform: uppercase;
+    font-size: 10vh;
+    font-weight:800;
+}
+
+.loginButton{
+    width:auto;
+    height:auto;
+    border-color:rgb(131, 131, 131);
+    color:black;
+    background-color: rgb(255, 255, 255);
+    margin:auto;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.loginButton:hover{
+    background-color: rgb(131, 131, 131);;
+}
+
+
+.section {
+    background-color: rgb(26, 26, 26);
+    width: 100vw;
+    border-style: solid;
+    border-top-color:rgb(255, 140, 0);
+    border-bottom-color:rgb(131, 72, 0);
+    border-width: 1px;
+    display:inline-block;
+    min-height: 75vh;
+}
+
+.button-section{
+    display: table-footer-group;
+    height:4vh;
+    width: 100vh;
+}
+
+.button{
+    margin:1vh 1vh 0;
+    color: grey;
+    background-color:rgb(17, 17, 17);
+    border-style: solid;
+    border-color: rgb(255, 212, 187);
+    border-width: 1px;
+    width: 19vw;
+    height: 4vh;
+    box-shadow: 0.5vh 0.5vh black;
+    cursor: pointer;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.button:active{
+    background-color: black;
+    box-shadow: 0 0;
+}
+
+.div {
+    display: inline-block;
+    border-top-color: rgb(255, 140, 0);
+    border-left-color: rgb(186, 102, 0);
+    border-right-color: rgb(131, 72, 0);
+    border-bottom-color: rgb(131, 72, 0);
+    background-color: rgb(17, 17, 17);
+    border-style: solid;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    margin-top:2vh;
+    margin-bottom: 1vh;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    width: 30vw;
+    height: 65vh;
+    color:rgb(81, 81, 81);
+    box-shadow: 0.5vh 0.5vh 15px rgb(0, 0, 0) ;
+}
+
+.img {
+    display:flex;
+    margin-top:3vh;
+    border-style:solid;
+    border-color:rgb(175, 175, 175);
+    border-width: 1px;
+    width: 80%;
+    height: 80%;
+}
+.film-title {
+    font-size: 3vh;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(192, 192, 192);
+}
+.opisanie {
+    margin:auto;
+    font-size: 2vh;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    background: rgb(14,14,14);
+    background: linear-gradient(90deg, rgba(14,14,14,1) 8%, rgba(9,62,65,0.9304971988795518) 20%, rgba(60,19,66,0.9865196078431373) 36%, rgba(10,10,10,1) 53%, rgba(42,6,6,1) 79%, rgba(24,24,24,1) 96%);
+    min-height: 10vh;
+    color:dimgray;
+    font-size: 2vh;
+    text-align: right;
+    padding-right: 4%;
+    margin: 0 0 0 0;
+}
